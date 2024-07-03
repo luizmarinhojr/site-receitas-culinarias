@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="style/formatos.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            label {
+                margin-bottom:0 !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <section class="container-fluid bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav" >
+                            <li class="nav-item">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="receitas.html">Receitas</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="cadastro.html">Cadastro</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </header>
+
+        <main class="container-fluid d-flex flex-column justify-content-center">
+            <div class="row px-3">
+                <h1>Efetue seu Cadastro</h1>
+            </div>
+            <form class="row px-1" action="https://formsubmit.co/marweedofc@gmail.com" method="POST">
+                <div class="col-10">
+                    <div class="form-group row align-items-center">
+                        <div class="col-1">
+                            <label for="input_name">Nome</label>
+                        </div>
+                        <div class="col">
+                            <input class="form-control" name="nome" type="text" maxlength="250" placeholder="Digite o seu nome" id="input_name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <div class="col-1">
+                            <label for="input_mail">E-mail</label>
+                        </div>
+                        <div class="col">
+                            <input class="form-control" name="email" type="email" maxlength="250" placeholder="Digite o seu melhor e-mail" id="input_mail" required>
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <div class="col-1">
+                            <label for="input_cep">CEP</label>
+                        </div>
+                        <div class="col">
+                            <input class="form-control" name="cep" type="text" maxlength="8" placeholder="Digite o CEP" id="input_cep" required>
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <div class="col-1">
+                            <label for="input_street">Rua</label>
+                        </div>
+                        <div class="col">
+                            <input class="form-control" name="rua" type="text" maxlength="200" placeholder="Digite a rua" id="input_street" required>
+                        </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                        <div class="col">
+                            <div class="row align-items-center">
+                                <div class="col-2">
+                                    <label for="input_number">Nº</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" name="numero" type="text" maxlength="6" placeholder="Digite o número" id="input_number" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row align-items-center">
+                                <div class="col-2">
+                                    <label for="input_address_2">Complemento</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" name="complemento" type="text" maxlength="150" placeholder="Digite o complemento" id="input_address_2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <div class="row align-items-center">
+                                <div class="col-2">
+                                    <label for="input_city">Cidade</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" name="cidade" type="text" maxlength="150" placeholder="Digite a cidade" id="input_city" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row align-items-center">
+                                <div class="col-2">
+                                    <label for="input_state">UF</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" name="uf" type="text" maxlength="2" placeholder="UF" id="input_state" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 align-self-end">
+                    <input class="btn btn-dark" type="submit" value="Cadastrar" style="margin-bottom: 1rem; width: 100%;">
+                </div>
+            </form>
+        </main>
+
+
+        <footer class="container-fluid rodape">
+            <section class="row align-items-center justify-content-center secao-rodape">
+                <p class="text-white texto-copyright">© Jurema 2022</p>
+            </section>
+        </footer>
+    </body>
+
+</html>
