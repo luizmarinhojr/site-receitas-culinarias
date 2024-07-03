@@ -2,7 +2,7 @@
 
 Realizado de acordo com as instruções passadas no enunciado do trabalho, visando ao máximo, a semelhança ao design apresentado.
 
-Você pode acessar o site diretamente por esse link -> [Site aqui](https://site-receitas-culinarias-beta.vercel.app/home.html)
+Você pode acessar o site diretamente por esse link -> <a href="https://site-receitas-culinarias-beta.vercel.app/home.html" target="_blank">Acessar site</a>
 
 ## Tecnologias utilizadas:
 
