@@ -10,8 +10,8 @@ Você pode acessar o site diretamente por esse link -> <a href="https://site-rec
 
 ## Demonstração
 
-![Screenshot_20240703_001233](https://github.com/luizmarinhojr/site-receitas-culinarias/assets/100722777/9e5953e1-e91a-49aa-8812-48c09130c200)
+![Screenshot_20240712_190128](https://github.com/user-attachments/assets/816757e6-35df-4b99-b98c-d2e030af6ee9)
 
-![Screenshot_20240703_001253](https://github.com/luizmarinhojr/site-receitas-culinarias/assets/100722777/c8c5ca4f-27b4-4ed3-ab5b-be9f0a6a2dfd)
+![Screenshot_20240712_190145](https://github.com/user-attachments/assets/87ad576b-94d8-47ab-a174-300b25187017)
 
-![Screenshot_20240703_001321](https://github.com/luizmarinhojr/site-receitas-culinarias/assets/100722777/6149bb1d-152c-4a30-ae20-295fc5291ef0)
+![Screenshot_20240712_190215](https://github.com/user-attachments/assets/d812525f-c3df-44c9-af71-fedc537d3c59)
